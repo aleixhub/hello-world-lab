@@ -9,7 +9,7 @@ site:
 content:
   sources:
     - url: .
-      start_path: lab
+      start_path: .
 asciidoc:
   attributes:
     release-version: master
