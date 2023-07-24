@@ -19,4 +19,4 @@ ui:
     url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
     snapshot: true
 output:
-  dir: ./antora/gh-pages
+  dir: ./dist
