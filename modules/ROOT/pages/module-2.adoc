@@ -35,6 +35,6 @@ And then you can deploy the service and execute commands inside:
 
 :podname: apps
 
-include::partials$exec_pod.adoc[]
+include::partial$exec_pod.adoc[]
 
 :!podname:
