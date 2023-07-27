@@ -1,1 +1,15 @@
 Module extra
+
+Run the following command to patch the ConfigMap `config-defaults`:
+
+====
+kubectl::
++
+--
+[#patch-tekton-config-defaults-k8s]
+[source,bash,subs="+macros,+attributes"]
+-----
+kubectl patch -n tekton-pipelines cm config-defaults \
+      --patch  "$(cat /pipelines/pod-template-patch.yaml)"
+-----
+copyToClipboard::patch-tekton-config-defaults-k8s[]
