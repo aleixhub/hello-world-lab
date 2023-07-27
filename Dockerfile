@@ -6,4 +6,4 @@ RUN antora generate --stacktrace site.yml
 
 FROM quay.io/rhpds/nookbag:latest
 
-COPY --from=builder /antora/dist /var/www/html/antora
+COPY --from=builder /antora/antora /var/www/html/antora

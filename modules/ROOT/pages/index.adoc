@@ -1,3 +1,41 @@
-# Intro
- 
-This is the introduction
+= Welcome to the Showroom UI/UX Demo and Playground
+
+:page-layout: home
+include::include_vars.adoc[]
+:!sectids:
+
+Welcome to your working Showroom Demo environment with a guid of {guid}
+
+You can access it via `ssh` with the following command:
+
+[source, java,subs="+macros,+attributes"]
+----
+ssh command is {ssh_command}
+----
+
+And your password is {ssh_password}
+
+Your Passowrd, {ssh_password}, will also work with your Visual Studio Code session
+
+
+== Publish Services to Kubernetes
+
+A Kubernetes tutorial to show how you can deploy a Java service to a Kubernetes cluster as it was a child game.
+
+[.tiles.browse]
+== Browse modules
+
+[.tile]
+.xref:module-1.adoc[Get Started]
+* xref:module-1.adoc#minikube[Minikube]
+
+[.tile]
+.xref:module-2.adoc[Deploying]
+* xref:module-2.adoc#package[Package the Application]
+* xref:module-2.adoc#deploy[Deploy the Application]
+
+[.tile]
+.xref:module-3.adoc[Test your skills]
+
+[.tile]
+.xref:EXTRA-MODULE/index.adoc[Extra module]
