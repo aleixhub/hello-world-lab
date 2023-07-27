@@ -13,7 +13,9 @@ content:
 asciidoc:
   attributes:
     release-version: master
-    page-pagination: true
+    page-pagination: false
+  extensions:
+    - ./lib/remote-include-processor.js
 ui:
   bundle:
     url: https://github.com/rhpds/nookbag-bundle/releases/download/v0.0.2/bundle.zip
