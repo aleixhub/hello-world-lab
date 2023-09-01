@@ -1,0 +1,22 @@
+antora:
+  name: nookbag_base
+  version: HEAD
+  dir: antora
+  modules:
+    - name: index
+      validation_script: ./validation-index.sh
+    - name: module-1
+    - name: module-2
+    - name: module-3
+    - name: EXTRA-MODULE/index
+
+tabs:
+  - name: double_terminal
+    port: 8001
+    secondary_port: 8002
+    path: /wetty
+    secondary_path: /wetty
+  - name: codeserver
+    port: 8003
+  - name: docs
+    url: https://docs.ansible.com/
