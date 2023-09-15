@@ -4,16 +4,16 @@ antora:
   dir: antora
   modules:
     - name: index
-      label: Welcome to the Showroom UI/UX Demo and Playground
+      label: "Welcome to the Showroom UI/UX Demo and Playground"
       validation_script: ./validation-index.sh
     - name: module-1
-      label: Module 1: Setup
+      label: "Module 1: Setup"
     - name: module-2
-      label: Module 2: Deploy Service
+      label: "Module 2: Deploy Service"
     - name: module-3
-      label: Module 3: Test your skills
+      label: "Module 3: Test your skills"
     - name: EXTRA-MODULE/index
-      label: Module extra
+      label: "Module extra"
 
 tabs:
   - name: double_terminal
